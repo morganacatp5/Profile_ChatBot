@@ -1,0 +1,34 @@
+def saldacao(nome):
+    import random
+    frases = ["Ola meu nome e "+nome+". como vai?", "Ola", "Tudo bem com vc?"]
+    print(frases[random,randint(0,2])
+
+def recebeTexto():
+    texto ="Cliente: " + input("Cliente: ")
+    palavraProibida = ["boco","mane","filho da mae"]
+    for p in palavraProibida:
+        if p in texto:
+            print("Nao compreendi sua pergunta...")
+            return recebeTexto()
+        return texto
+
+def buscaResposta(nome, texto):
+    while True:
+        viu = != "":
+            if texto,replace("Cliente: ","") =="Tchau":
+                print(nome+ ": volte sempre!")
+                return "fim"
+                elif viu.strip() -- texto.strip():
+                    proximalinha - basedeconhecimento.readline()
+                    if "chatbot: " in proximalinha
+            else:
+                print("Nao tenho informacoes a respeito da busca...")
+                basedoconhecimento.write("\n" + texto)
+                resposta_user + input("o que esperava?\n")
+                basedoconhecimento.write("\n" +"Chatbot: "+resposta_user)
+                return "Hum..."
+
+def exibeResposta(resposta, nome):
+    print(resposta.replace("Chatbot",nome))
+    if resposta == "fim"
+    return "continua"
